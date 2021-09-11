@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{8AE33E5F-B23C-4F08-A4C9-B5A752AE4EEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{269E20C7-1DE9-4126-9CA3-A21280D77C78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{F57AD026-10BD-444B-AB3E-AB91F0627564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{F45E19CB-1DF1-4B73-A826-457249285D57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationStandard", "ApplicationStandard\ApplicationStandard\ApplicationStandard.csproj", "{E3940193-2430-421A-89ED-EEBB8BABC0E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi\WebApi.csproj", "{63F94103-7F29-419B-8FEE-27248FAFD68D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidDemo", "Android\AndroidDemo\AndroidDemo.csproj", "{FF8385ED-BE08-4154-AA14-5387CC7831D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IOC", "IOC", "{91EAFB54-7590-4E62-B87A-4D33214B5E24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DInjection", "IOC\DInjection\DInjection.csproj", "{2BE42A66-C7FC-4A4E-8E89-C57B7FDCEC16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F45E19CB-1DF1-4B73-A826-457249285D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F45E19CB-1DF1-4B73-A826-457249285D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F45E19CB-1DF1-4B73-A826-457249285D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F45E19CB-1DF1-4B73-A826-457249285D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3940193-2430-421A-89ED-EEBB8BABC0E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3940193-2430-421A-89ED-EEBB8BABC0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3940193-2430-421A-89ED-EEBB8BABC0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3940193-2430-421A-89ED-EEBB8BABC0E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63F94103-7F29-419B-8FEE-27248FAFD68D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63F94103-7F29-419B-8FEE-27248FAFD68D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63F94103-7F29-419B-8FEE-27248FAFD68D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63F94103-7F29-419B-8FEE-27248FAFD68D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF8385ED-BE08-4154-AA14-5387CC7831D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF8385ED-BE08-4154-AA14-5387CC7831D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF8385ED-BE08-4154-AA14-5387CC7831D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF8385ED-BE08-4154-AA14-5387CC7831D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BE42A66-C7FC-4A4E-8E89-C57B7FDCEC16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE42A66-C7FC-4A4E-8E89-C57B7FDCEC16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE42A66-C7FC-4A4E-8E89-C57B7FDCEC16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE42A66-C7FC-4A4E-8E89-C57B7FDCEC16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5617C909-0AB5-41BF-8746-371A51CF795F}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F57AD026-10BD-444B-AB3E-AB91F0627564} = {8AE33E5F-B23C-4F08-A4C9-B5A752AE4EEC}
+		{F45E19CB-1DF1-4B73-A826-457249285D57} = {F57AD026-10BD-444B-AB3E-AB91F0627564}
+		{E3940193-2430-421A-89ED-EEBB8BABC0E1} = {F57AD026-10BD-444B-AB3E-AB91F0627564}
+		{63F94103-7F29-419B-8FEE-27248FAFD68D} = {269E20C7-1DE9-4126-9CA3-A21280D77C78}
+		{FF8385ED-BE08-4154-AA14-5387CC7831D9} = {269E20C7-1DE9-4126-9CA3-A21280D77C78}
+		{2BE42A66-C7FC-4A4E-8E89-C57B7FDCEC16} = {91EAFB54-7590-4E62-B87A-4D33214B5E24}
+	EndGlobalSection
+EndGlobal
